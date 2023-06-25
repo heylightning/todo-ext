@@ -22,7 +22,7 @@ git clone git@github.com:heylightning/todo-ext.git
 
 MIT License
 
-Copyright (c) 2023 Pratham - heylightning/to-do-ext
+Copyright (c) 2023 Pratham - heylightning/todo-ext
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
