@@ -1,6 +1,6 @@
 # Description
 
-Created a basic to-do web extension.
+Created a To-Do Web Extension.
 
 ## Follow the following steps to run this extension in your browser!
 
