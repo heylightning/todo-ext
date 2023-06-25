@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "To-Do List Extension",
+    "version": "1.0",
+    "description": "A simple to-do list extension",
+    "icons": {
+        "48": "icon.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon.png",
+            "48": "icon.png"
+        }
+    },
+    "permissions": ["storage"]
+}
