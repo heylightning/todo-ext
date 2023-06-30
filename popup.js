@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const todoList = document.getElementById("todo-list");
   
-    // Load saved tasks
     chrome.storage.local.get("tasks", function (result) {
       if (result.tasks) {
         result.tasks.forEach(function (task) {
@@ -10,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   
-    // Toggle completed class on click
     todoList.addEventListener("click", function (event) {
       if (event.target.tagName === "LI") {
         const taskElement = event.target;
@@ -21,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   
-    // Add new task
     const form = document.getElementById("todo-form");
     const input = document.getElementById("todo-input");
   
@@ -36,7 +33,6 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   
-    // Add task to the list
     function addTask(task, completed) {
       const li = document.createElement("li");
       li.textContent = task;
@@ -46,7 +42,6 @@ document.addEventListener("DOMContentLoaded", function () {
       todoList.appendChild(li);
     }
   
-    // Update task completion state
     function updateTask(taskText, completed) {
       const taskElements = todoList.getElementsByTagName("li");
       for (let i = 0; i < taskElements.length; i++) {
@@ -63,7 +58,6 @@ document.addEventListener("DOMContentLoaded", function () {
       saveTasks();
     }
   
-    // Save tasks to storage
     function saveTasks() {
       const taskElements = todoList.getElementsByTagName("li");
       const tasks = [];
