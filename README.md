@@ -5,18 +5,20 @@ Created a To-Do Web Extension.
 ## Follow the following steps to run this extension in your browser: -
 
 1. Clone the repository using the command below:
+
 ```
 git clone git@github.com:heylightning/todo-ext.git
 ```
+
 2. Load the extension in your web browser using the following steps:
-    * Open your web browser (Chrome, Firefox, etc.).
-    * Go to the browser's extension management page. For example, in Chrome, you can navigate to ` chrome://extensions `.
-    * Enable the "Developer mode" or a similar option in your browser.
-    * Look for an option to "Load unpacked" or "Load extension" and choose that option.
-    * Select the folder where you have your extension project (the one containing ` manifest.json `).
+   - Open your web browser (Chrome, Firefox, etc.).
+   - Go to the browser's extension management page. For example, in Chrome, you can navigate to `chrome://extensions`.
+   - Enable the "Developer mode" or a similar option in your browser.
+   - Look for an option to "Load unpacked" or "Load extension" and choose that option.
+   - Select the folder where you have your extension project (the one containing `manifest.json`).
 3. Your extension should now be loaded and visible in your browser's toolbar. Click on the extension icon to open the to-do list.
 
-*Note: These requirements and steps are staged for Version 1.0.0*
+_Note: These requirements and steps are staged for Version 1.0.0_
 
 ### LICENSE
 
